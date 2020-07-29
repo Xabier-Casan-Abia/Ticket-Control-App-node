@@ -1,8 +1,6 @@
-# Notas:
+# Notes:
 
-Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.
-
-Recuerden que deben de reconstruir los módulos de node con el comando
+An app to manage a queue of tickets. It creates tickets for allocation to different desks and a public screen to show which ticket has been allocated to which desk.
 
 ```
 npm install
