@@ -28,6 +28,10 @@ socket.on('currentTicket', (data) => {
 });
 
 socket.on('lastFour', (data) => {
+    var audio = new Audio('audio/new-ticket.mp3');
+    audio.muted = true;
+    audio.play();
+    audio.muted = false;
     updateHTML(data.lastFour);
 });
 

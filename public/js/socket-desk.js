@@ -19,7 +19,6 @@ if (!serachParams.has('desk')) {
 }
 
 const desk = serachParams.get('desk')
-const audio = new Audio('audio/new-ticket.mp3');
 
 $('h1').text('Desk ' + desk);
 
@@ -35,6 +34,5 @@ $('button').on('click', () => {
 
         label.text('Ticket ' + resp.number);
 
-        audio.play();
     });
 });
